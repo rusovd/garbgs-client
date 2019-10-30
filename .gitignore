@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
+out
+build/Release
+build
+node_modules
+.npm
+.eslintcache
+.env
