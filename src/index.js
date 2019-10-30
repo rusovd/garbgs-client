@@ -7,7 +7,7 @@ const GRABGS_SERVER = 'http://3.133.61.166:3000/';
 const DEFAULT_LINK_SERVER = 'https://services-staging.allyo.com';
 class App extends Component {
   state = {
-    linkServer: GRABGS_SERVER,
+    linkServer: DEFAULT_LINK_SERVER,
     grabbedData: []
   };
 
