@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7658fab1b231b756a86080bf6b30ec0",
+    "revision": "5cb59292692fffd069788918f73a288a",
     "url": "/garbgs-client/index.html"
   },
   {
-    "revision": "8c2802f6cb673e17119b",
+    "revision": "72bf99cab8e112d3a560",
     "url": "/garbgs-client/static/css/main.67393c3a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/garbgs-client/static/js/2.2c8b2d1e.chunk.js"
   },
   {
-    "revision": "8c2802f6cb673e17119b",
-    "url": "/garbgs-client/static/js/main.1ad73af5.chunk.js"
+    "revision": "72bf99cab8e112d3a560",
+    "url": "/garbgs-client/static/js/main.74a69068.chunk.js"
   },
   {
     "revision": "afdbc74b2830a35a2c18",

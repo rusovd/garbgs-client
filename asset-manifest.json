@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/garbgs-client/static/css/main.67393c3a.chunk.css",
-    "main.js": "/garbgs-client/static/js/main.1ad73af5.chunk.js",
-    "main.js.map": "/garbgs-client/static/js/main.1ad73af5.chunk.js.map",
+    "main.js": "/garbgs-client/static/js/main.74a69068.chunk.js",
+    "main.js.map": "/garbgs-client/static/js/main.74a69068.chunk.js.map",
     "runtime~main.js": "/garbgs-client/static/js/runtime~main.74b7cce8.js",
     "runtime~main.js.map": "/garbgs-client/static/js/runtime~main.74b7cce8.js.map",
     "static/js/2.2c8b2d1e.chunk.js": "/garbgs-client/static/js/2.2c8b2d1e.chunk.js",
     "static/js/2.2c8b2d1e.chunk.js.map": "/garbgs-client/static/js/2.2c8b2d1e.chunk.js.map",
     "index.html": "/garbgs-client/index.html",
-    "precache-manifest.43e14d439a89818a74289d34acccaf2e.js": "/garbgs-client/precache-manifest.43e14d439a89818a74289d34acccaf2e.js",
+    "precache-manifest.af055199ad204c2c39db40b449198019.js": "/garbgs-client/precache-manifest.af055199ad204c2c39db40b449198019.js",
     "service-worker.js": "/garbgs-client/service-worker.js",
     "static/css/main.67393c3a.chunk.css.map": "/garbgs-client/static/css/main.67393c3a.chunk.css.map"
   }
