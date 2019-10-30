@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import AccordionWrapper from "./components/AccordionWrapper";
 import "./styles.css";
 
-const GRABGS_SERVER = 'http://localhost:3003';
+const GRABGS_SERVER = 'http://3.133.61.166:3000/';
 const DEFAULT_LINK_SERVER = 'https://services-staging.allyo.com';
 class App extends Component {
   state = {
