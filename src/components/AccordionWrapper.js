@@ -12,12 +12,7 @@ const AccordionWrapper = props => {
       >
         Expand All
       </button>
-      {console.log(props.texts)}
-      {props.texts && props.texts.map((el,i)=> <Accordion key={i} header={el} links={el}expanded={expandAll} />)}
-      {/* <Accordion section={1} expanded={expandAll} />
-      <Accordion section={2} expanded={expandAll} />
-      <Accordion section={3} expanded={expandAll} />
-      <Accordion section={4} expanded={expandAll} /> */}
+      {props.grabbedData && props.grabbedData.map((el,i)=> <Accordion linkServer={props.linkServer}  key={i} header={el.text} links={el.links} expanded={expandAll} />)}
     </div>
   );
 };
