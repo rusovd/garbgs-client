@@ -20,14 +20,14 @@ html {
 }
 
 .accordion-wrapper {
-  max-width: 40rem;
+  max-width: 80%;
   display: block;
   margin: 3rem auto;
 }
 
 .accordion-Btn {
   width: 100%;
-  height: 4rem;
+  height: 6rem;
   padding: 0 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,11 +39,15 @@ html {
   outline: none;
   border-radius: 0.5rem;
   background: #eaecef;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-bottom: 0.5rem;
+  font-weight: 800;
 }
 .expandAll-btn {
   border: 1px solid #5c75ea;
+  background-color: white;
+  text-align: center;
+  display: block;
 }
 
 .section {
@@ -53,9 +57,11 @@ html {
 }
 
 .section-title {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
   color: #555;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 .section-text {

@@ -11,22 +11,14 @@ const Accordion = props => {
   return (
     <>
       <button className="accordion-Btn" onClick={() => setOpen(!open)}>
-        Section {props.section}
+        {props.header}
         <svg className={open || props.expanded ? "icon animateIcon" : "icon"}>
           <use xlinkHref={`/arrow.svg#icon-chevron-small-down`} />
         </svg>
       </button>
       <article className={open || props.expanded ? "section show" : "section"}>
-        <h6 className="section-title">Discovering the Blackhole</h6>
-        {/* <p className="section-text"> // whether we will need some comments for block or link
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-          provident magni. Quae voluptatibus eos magni provident aut porro ex
-          ipsam modi est. Possimus esse non ea vero repudiandae? Error,
-          voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Blanditiis exercitationem dicta quaerat. Cupiditate optio placeat
-          officiis ratione ea suscipit cum molestiae inventore. Officiis
-          voluptatibus quae deleniti qui similique odio deserunt?
-        </p> */}
+        {/* {props.links.map((el,i)=> <h6 key={i} className="section-title">{el}</h6>)}         */}
+        <h6 className="section-title">{props.header}</h6>
       </article>
     </>
   );
